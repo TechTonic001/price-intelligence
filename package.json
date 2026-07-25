@@ -1,0 +1,11 @@
+{
+  "name": "price-intelligence",
+  "version": "1.0.0",
+  "description": "Price Intelligence Platform — Monorepo",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend":  "npm run dev --prefix backend",
+    "install:all":  "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
